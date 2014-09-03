@@ -12,7 +12,7 @@
             <a class="navbar-brand page-scroll" href="#page-top">${page.navigation.brand}</a>
         </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li class="hidden">
@@ -22,8 +22,8 @@
                 page.sections.each { Map section ->
                 def id = "#" + section.name.replace(" ", "-").toLowerCase()
                 %>
-                <li class="page-scroll">
-                    <a href="${id}">${section.name}</a>
+                <li>
+                    <a class="page-scroll" href="${id}">${section.name}</a>
                 </li>
                 <% } %>
             </ul>
