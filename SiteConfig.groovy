@@ -8,6 +8,7 @@ tag_libs = [ThemeTagLib]
 
 features {
     highlight = 'pygments' // 'none', 'pygments'
+    compass = 'none'       // 'none', 'default'
     markdown = 'txtmark'   // 'txtmark', 'pegdown'
 }
 
