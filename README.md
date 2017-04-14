@@ -1,6 +1,7 @@
 ![Banner](https://raw.githubusercontent.com/sysgears/grain-theme-agency/master/banner.jpg)
 
-#Grain Bootstrap Agency Theme
+Grain Bootstrap Agency Theme
+============================
 
 This one page [Grain] theme is based on Start Bootstrap [Agency Template].
 
